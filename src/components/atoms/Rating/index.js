@@ -86,8 +86,8 @@ export default class Rating extends Component {
 }
 Rating.defaultProps = {
   disabled: false,
-  iconFilled: <Star fill={orange['500']} />,
-  iconNormal: <StarBorder fill={orange['300']} />,
+  iconFilled: <Star className="filled" fill={orange['500']} />,
+  iconNormal: <StarBorder className="empty" fill={orange['300']} />,
   max: 5,
   readOnly: false,
   value: 0

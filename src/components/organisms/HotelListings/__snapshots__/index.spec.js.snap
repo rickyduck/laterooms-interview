@@ -1,0 +1,712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders HotelListings correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-container-1 MuiGrid-spacing-xs-24-25"
+    style="margin-top: 30px;"
+  >
+    <div
+      class="MuiGrid-item-2 MuiGrid-grid-xs-3-32"
+    >
+      <div
+        class="MuiPaper-root-101 MuiPaper-elevation1-104 MuiPaper-rounded-102 MuiCard-root-100 HotelListing-card-98"
+      >
+        <button
+          class="MuiButtonBase-root-131 MuiCardActionArea-root-128"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            alt="Contemplative Reptile"
+            class="MuiCardMedia-root-134 MuiCardMedia-media-135 HotelListing-media-99"
+            height="140"
+            src="https://www.visittrentino.info/website/var/tmp/image-thumbnails/90000/90264/thumb__demi_gallery_detail_landscape/hotel-continental-andalo_230145.jpeg"
+            title="Contemplative Reptile"
+          />
+          <div
+            class="MuiCardContent-root-136"
+          >
+            <h2
+              class="MuiTypography-root-137 MuiTypography-h5-153 MuiTypography-gutterBottom-164"
+            >
+              The First Hotel
+            </h2>
+            <p
+              class="MuiTypography-root-137 MuiTypography-body1-146"
+            >
+              <div>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+              </div>
+            </p>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight-130"
+          />
+          <span
+            class="MuiTouchRipple-root-187"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root-194"
+        >
+          <button
+            class="MuiButtonBase-root-131 MuiButton-root-196 MuiButton-text-198 MuiButton-textPrimary-199 MuiButton-flat-201 MuiButton-flatPrimary-202 MuiButton-sizeSmall-219 MuiCardActions-action-195"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-197"
+            >
+              Share
+            </span>
+            <span
+              class="MuiTouchRipple-root-187"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root-131 MuiButton-root-196 MuiButton-text-198 MuiButton-textPrimary-199 MuiButton-flat-201 MuiButton-flatPrimary-202 MuiButton-sizeSmall-219 MuiCardActions-action-195"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-197"
+            >
+              Learn More
+            </span>
+            <span
+              class="MuiTouchRipple-root-187"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-item-2 MuiGrid-grid-xs-3-32"
+    >
+      <div
+        class="MuiPaper-root-101 MuiPaper-elevation1-104 MuiPaper-rounded-102 MuiCard-root-100 HotelListing-card-98"
+      >
+        <button
+          class="MuiButtonBase-root-131 MuiCardActionArea-root-128"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            alt="Contemplative Reptile"
+            class="MuiCardMedia-root-134 MuiCardMedia-media-135 HotelListing-media-99"
+            height="140"
+            src="https://hi-cdn.t-rp.co.uk/images/hotels/120460/0?width=870&height=480&crop=false"
+            title="Contemplative Reptile"
+          />
+          <div
+            class="MuiCardContent-root-136"
+          >
+            <h2
+              class="MuiTypography-root-137 MuiTypography-h5-153 MuiTypography-gutterBottom-164"
+            >
+              The Secont Hotel
+            </h2>
+            <p
+              class="MuiTypography-root-137 MuiTypography-body1-146"
+            >
+              <div>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 empty"
+                      fill="#ffb74d"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 empty"
+                      fill="#ffb74d"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+              </div>
+            </p>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight-130"
+          />
+          <span
+            class="MuiTouchRipple-root-187"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root-194"
+        >
+          <button
+            class="MuiButtonBase-root-131 MuiButton-root-196 MuiButton-text-198 MuiButton-textPrimary-199 MuiButton-flat-201 MuiButton-flatPrimary-202 MuiButton-sizeSmall-219 MuiCardActions-action-195"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-197"
+            >
+              Share
+            </span>
+            <span
+              class="MuiTouchRipple-root-187"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root-131 MuiButton-root-196 MuiButton-text-198 MuiButton-textPrimary-199 MuiButton-flat-201 MuiButton-flatPrimary-202 MuiButton-sizeSmall-219 MuiCardActions-action-195"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-197"
+            >
+              Learn More
+            </span>
+            <span
+              class="MuiTouchRipple-root-187"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-item-2 MuiGrid-grid-xs-3-32"
+    >
+      <div
+        class="MuiPaper-root-101 MuiPaper-elevation1-104 MuiPaper-rounded-102 MuiCard-root-100 HotelListing-card-98"
+      >
+        <button
+          class="MuiButtonBase-root-131 MuiCardActionArea-root-128"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            alt="Contemplative Reptile"
+            class="MuiCardMedia-root-134 MuiCardMedia-media-135 HotelListing-media-99"
+            height="140"
+            src="http://az837918.vo.msecnd.net/publishedimages/Listings/2050/en-US/images/1/fantasyland-hotel-L-9.jpg"
+            title="Contemplative Reptile"
+          />
+          <div
+            class="MuiCardContent-root-136"
+          >
+            <h2
+              class="MuiTypography-root-137 MuiTypography-h5-153 MuiTypography-gutterBottom-164"
+            >
+              The Third Hotel
+            </h2>
+            <p
+              class="MuiTypography-root-137 MuiTypography-body1-146"
+            >
+              <div>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 filled"
+                      fill="#ff9800"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 empty"
+                      fill="#ffb74d"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+                <button
+                  class="MuiButtonBase-root-131 MuiIconButton-root-172"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-177"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-178 empty"
+                      fill="#ffb74d"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-187"
+                  />
+                </button>
+              </div>
+            </p>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight-130"
+          />
+          <span
+            class="MuiTouchRipple-root-187"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root-194"
+        >
+          <button
+            class="MuiButtonBase-root-131 MuiButton-root-196 MuiButton-text-198 MuiButton-textPrimary-199 MuiButton-flat-201 MuiButton-flatPrimary-202 MuiButton-sizeSmall-219 MuiCardActions-action-195"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-197"
+            >
+              Share
+            </span>
+            <span
+              class="MuiTouchRipple-root-187"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root-131 MuiButton-root-196 MuiButton-text-198 MuiButton-textPrimary-199 MuiButton-flat-201 MuiButton-flatPrimary-202 MuiButton-sizeSmall-219 MuiCardActions-action-195"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-197"
+            >
+              Learn More
+            </span>
+            <span
+              class="MuiTouchRipple-root-187"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

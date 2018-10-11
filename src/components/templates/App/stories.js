@@ -2,7 +2,7 @@ import React from 'react';
 import { withKnobs, boolean } from '@storybook/addon-knobs';
 
 import { storiesOf } from '@storybook/react';
-import { AppComponent as App } from './';
+import { AppComponent } from './';
 
 import mockHotels from '../../../../__mocks__/hotels';
 
@@ -17,4 +17,4 @@ const props = {
 const stories = storiesOf('Templates', module);
 stories.addDecorator(withKnobs);
 
-stories.add('App', () => <App {...props} />);
+stories.add('AppComponent', () => <AppComponent {...props} />);

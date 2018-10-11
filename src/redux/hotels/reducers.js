@@ -7,6 +7,7 @@ import {
 const defaultState = {
   list: [],
   fetching: false,
+  filters: null,
   error: false
 };
 
@@ -23,6 +24,7 @@ const hotelsReducer = (state = defaultState, action) => {
         ...state,
         fetching: false,
         list: action.data.response,
+        filters: action.data.filters,
         error: false
       };
     case FETCH_HOTELS_FAILED:

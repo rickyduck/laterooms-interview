@@ -8,8 +8,12 @@ export function* fetchHotels() {
   yield put(actions.fetchHotelsStarted());
 
   try {
+    let facilities = [];
     const response = yield call(axios.get, hotelsUrl);
-    yield put(actions.fetchHotelsSucceeded(response.data));
+    response.data.forEach(hotel => {
+      facilities = [...new Set([...facilities, ...hotel.facilities])];
+    });
+    yield put(actions.fetchHotelsSucceeded(response.data, { facilities }));
   } catch (e) {
     yield put(actions.fetchHotelsFailed(e.message));
   }

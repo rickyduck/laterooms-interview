@@ -11,10 +11,11 @@ export const fetchHotelsStarted = () => ({
   type: FETCH_HOTELS_STARTED
 });
 
-export const fetchHotelsSucceeded = response => ({
+export const fetchHotelsSucceeded = (response, filters) => ({
   type: FETCH_HOTELS_SUCCEEDED,
   data: {
-    response
+    response,
+    filters
   }
 });
 

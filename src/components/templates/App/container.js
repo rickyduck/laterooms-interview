@@ -11,7 +11,7 @@ class AppContainer extends Component {
   }
   render() {
     return (
-      (this.props.hotels.loading && <div>Loading</div>) || (
+      (this.props.hotels.loading && <div data->Loading</div>) || (
         <AppComponent hotels={this.props.hotels} />
       )
     );
