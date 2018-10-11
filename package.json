@@ -4,12 +4,15 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.2.0",
+    "@material-ui/icons": "^3.0.1",
     "axios": "^0.18.0",
     "material-ui": "^0.20.2",
+    "material-ui-rating": "^2.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-scripts": "2.0.4",
+    "react-testing-library": "^5.2.0",
     "redux": "^4.0.0",
     "redux-saga": "^0.16.2",
     "styled-components": "^3.4.10"
@@ -18,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,6 +35,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-knobs": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "jest": "^23.6.0",
     "storybook": "^1.0.0"
   }
 }

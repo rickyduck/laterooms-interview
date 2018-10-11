@@ -1,15 +1,29 @@
-import React, { Component } from 'react';
-import Header from '../../molecules/Header';
+import React, { Component, Fragment as f } from 'react';
+import PropTypes from 'prop-types';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import Header from '../../atoms/Header';
+import HotelListings from '../../organisms/HotelListings';
+
 import './styles.css';
 
-class App extends Component {
+class AppComponent extends Component {
   render() {
+    const { hotels } = this.props;
     return (
       <div className="App">
-        <Header title="Property Search" />
+        {(hotels.fetching && <CircularProgress size={50} />) || (
+          <f>
+            <Header title="Property Search" />
+            <HotelListings list={this.props.hotels.list} />
+          </f>
+        )}
       </div>
     );
   }
 }
 
-export default App;
+AppComponent.propTypes = {
+  hotels: PropTypes.object.isRequired
+};
+
+export default AppComponent;

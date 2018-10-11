@@ -11,7 +11,7 @@ const styles = {
   }
 };
 
-function SimpleAppBar(props) {
+function Header(props) {
   const { classes, title } = props;
 
   return (
@@ -19,7 +19,7 @@ function SimpleAppBar(props) {
       <AppBar position="static" color="default">
         <Toolbar>
           <Typography variant="h6" color="inherit">
-            Laterooms {title}
+            {title}
           </Typography>
         </Toolbar>
       </AppBar>
@@ -27,9 +27,9 @@ function SimpleAppBar(props) {
   );
 }
 
-SimpleAppBar.propTypes = {
+Header.propTypes = {
   classes: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired
 };
 
-export default withStyles(styles)(SimpleAppBar);
+export default withStyles(styles)(Header);
