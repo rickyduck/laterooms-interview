@@ -3,5 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Using `mockapi.io` for backend
 
 `yarn install`
-`yarn start`
+
+`yarn start (http://localhost:3000)`
+
+`yarn storybook (http://localhost:9009)`
+
 `yarn test`
